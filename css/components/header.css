@@ -7,14 +7,14 @@ header {
 }
 
 header .header__left {
-  max-width: 62rem;
+  max-width: 78rem;
   flex: 1;
 }
 
 header .header__left p {
   margin-top: 2rem;
   margin-bottom: 4rem;
-  max-width: 50rem;
+  max-width:60rem;
 }
 
 header .header__right .header__image {
@@ -35,7 +35,7 @@ header .header__right .header__image::after {
   z-index: -1;
 }
 
-header .header__right .header__image .lucas {
+header .header__right .header__image  {
   border-radius: 0.5rem;
   min-width: 25rem;
   max-width: 100%;
@@ -43,8 +43,8 @@ header .header__right .header__image .lucas {
 
 header .header__right .header__image .background {
   position: absolute;
-  top: -4rem;
-  right: -2.5rem;
+  top: 4rem;
+  right: 2.5rem;
   z-index: -1;
 }
 
