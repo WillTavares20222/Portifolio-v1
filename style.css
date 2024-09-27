@@ -89,6 +89,7 @@
 
 }
 
-.skills__item{
+.skills__item,.skills__content{
+    text-align: justify;
     box-sizing: content-box;
 }
