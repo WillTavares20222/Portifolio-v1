@@ -5,19 +5,37 @@
 
 .skills .skills__content {
   padding: 6rem 4rem;
+  text-align: justify;
+}
+
+.skills__content h2{
+  margin-bottom: 1.4em;
+  text-align: center;
+  text-indent: 8px;
+}
+
+.skills__content p{
+  text-indent: 30px;
+  line-height: 1.2em;
+  font-family:var(--font-family);
+}
+
+.skills__content h3{
+  margin-top: 1.4em;
+  color: var(--dark-secondary-color);
+  margin-bottom: 1.0em;
   text-align: center;
 }
-
-.skills .skills__content .description {
+/* .skills .skills__content .description {
   max-width: 56rem;
   margin: 0 auto 6rem;
-}
+} */
 
-.skills .skills__content ul {
+/* .skills .skills__content ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 2rem;
-}
+} */
 
 .skills .skills__content ul li .image-container {
   background-color: var(--white);
@@ -37,3 +55,5 @@
   font-weight: 500;
   margin: 2rem 0 1rem;
 }
+
+

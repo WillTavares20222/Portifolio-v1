@@ -30,6 +30,7 @@
 .about .about__right {
   flex: 1;
   max-width: 66rem;
+  text-indent: 30px;
 }
 
 @media only screen and (max-width: 768px) {
