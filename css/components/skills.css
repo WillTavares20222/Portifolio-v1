@@ -1,6 +1,11 @@
 .skills {
   background-color: var(--light-tertiary-color);
   scroll-margin-top: 15rem;
+  width: 100%;
+  max-width: 120rem;
+  padding: 0 4rem;
+  margin: 0 auto;
+  margin-bottom: 26rem;
 }
 
 .skills .skills__content {
