@@ -4,7 +4,7 @@ footer {
 
 footer .footer__content {
   text-align: center;
-  padding: 6rem 2rem 1rem;
+  padding: 3rem 2rem 1rem;
   max-width: 47rem;
 }
 
@@ -28,4 +28,12 @@ footer .footer__content .footer__copyright {
 
 footer .footer__contact footer__contador {
 font-size: 5.3rem;
+}
+
+footer .mb-m {
+  margin-bottom: 0px;
+}
+
+.mb-l {
+  margin-bottom: 0rem;
 }
